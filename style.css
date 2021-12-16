@@ -1,0 +1,67 @@
+.page{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(175,175,175,1) 100%);
+}
+.main{
+    text-align: center;
+    margin-top: 50px;
+}
+.heading{
+    animation: zoomInUp;
+    animation-duration: 2s;
+}
+.calculator{
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #2a2a2a;
+    border-radius: 20px;
+    padding: 10px;
+    animation: zoomInDown;
+    animation-duration: 1s;
+    box-shadow: 0px 0px 20px rgb(102, 102, 102);
+}
+table{
+    margin: auto;
+}
+button{
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    margin: 4px;
+    width: 59px;
+    height: 59px;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 30px;
+    border-style: inset;
+    border-width: 1px;
+    box-shadow: 0 5px #999;
+    transition: all 0.1s ease-in-out;
+}
+button:active{
+    -webkit-tap-highlight-color: transparent;
+    transition: all 0.1s ease-in-out;
+    box-shadow: 0 3px rgb(56, 56, 56);
+    transform: translate(0px , 4px);
+    background-color: rgb(185, 185, 185);
+}
+input {
+    color: whitesmoke;
+    background-color: #0e0e0ea1;
+    border-radius: 18px;
+    font-size: 33px;
+    width: 245px;
+    height: 58px;
+    padding: 9px;
+    border-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.clear{
+    display: flex;
+    width: 59px;
+}
+.b{
+    margin-right: 2px;
+    width: 134px;
+}
